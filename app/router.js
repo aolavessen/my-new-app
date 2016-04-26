@@ -6,6 +6,9 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('jewelry',{path:`/`}, function() {
+    this.route('rings');
+  });
 });
 
 export default Router;
