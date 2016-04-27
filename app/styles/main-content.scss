@@ -11,13 +11,14 @@
   width: 30%;
   border-right: 1px solid black;
   background-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ1PfjBjUq7B2_yn4ItDzNgmsY4Wip_UfKNRuKH4ovVRanbQBf8Kw);
-
+  background-size: 300px 300px;
 
 
 }
 
 .side-menu_title {
 display: flex;
+color: white;
 justify-content: center;
 border-bottom: 2px solid black;
 
@@ -37,7 +38,7 @@ border-bottom: 2px solid black;
 }
 
 .store-items {
-
+  border-right: 2px solid black;
   display: flex;
   overflow: auto;
 
